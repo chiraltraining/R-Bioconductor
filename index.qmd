@@ -57,12 +57,21 @@ Upon completion of a course on R/Bioconductor for Bioinformatics, students will 
 * Understand the syntax, data types, control structures, and functions in R
 * Understand the Bioconductor infrastructure, including the package installation, management, and documentation
 
+```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width = "100%"}
+knitr::include_graphics("images/learnr.jpg")
+```
+
 **2. Perform exploratory data analysis, visualization, quality control, and statistical analysis using R/Bioconductor**
 
 - Load and manipulate different types of genomic data, including microarray, RNA-seq, ChIP-seq, and proteomics data
 - Perform exploratory data analysis and visualization using R/Bioconductor packages
 - Perform quality control of genomic data and identify problematic samples
 - Use statistical methods for hypothesis testing, such as t-tests, ANOVA, and regression analysis
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width = "100%"}
+knitr::include_graphics("images/eda2.png")
+```
+
 
 **3. Apply R/Bioconductor to high-throughput sequencing data, gene expression data, and proteomics data analysis**
 
@@ -72,10 +81,19 @@ Upon completion of a course on R/Bioconductor for Bioinformatics, students will 
 - Perform proteomics data analysis to identify differentially expressed proteins
 - Perform differential expression analysis, functional enrichment analysis, and pathway analysis using R/Bioconductor
 
+```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width = "100%"}
+knitr::include_graphics("images/heatmap2.png")
+```
+
 **4. Perform differential expression analysis of genomic data to identify differentially expressed genes, transcripts, or proteins**
 
 - Perform functional enrichment analysis to identify overrepresented biological pathways or gene ontology terms
 - Perform pathway analysis to identify pathways that are significantly altered in different biological conditions
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width = "80%"}
+knitr::include_graphics("images/volcano plot.png")
+```
 
 **5. Apply machine learning techniques for bioinformatics analysis**
 
@@ -100,6 +118,9 @@ Upon completion of a course on R/Bioconductor for Bioinformatics, students will 
 
 
 ## Useful resources for learning R
+
+
+
 
 - **DataCamp:** interactive online lessons in R.
 
@@ -193,7 +214,7 @@ The install() function (in the BiocManager package) has arguments that change it
 
 ## Team
 
-#### Md. Jubayer Hossain
+#### Md. Jubayer Hossain (Instructor)
 
 ![](images/JHossain.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Jubayer" width="200"}
 
@@ -201,7 +222,7 @@ The install() function (in the BiocManager package) has arguments that change it
 
 <br/>
 
-#### Md. Wahidul Islam
+#### Md. Wahidul Islam (Teaching Assistant)
 
 ![](images/wahidul.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Wahidul" width="200"}
 
@@ -209,7 +230,7 @@ Wahidul Islam is an undergraduate student in the Department of Microbiology at J
 
 <br/>
 
-#### Muhibullah Shahjahan
+#### Muhibullah Shahjahan (Teaching Assistant)
 
 ![](images/muhibullah.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of muhibullah" width="200"}
 
