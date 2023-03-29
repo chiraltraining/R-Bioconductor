@@ -12,7 +12,7 @@ website:
   title: "R/Bioconductor for Multi-Omics Data Science"
   description: "Learn to Analyze Genomics, Metagenomics, and Transcriptomics Data with R"
   site-url: "https://chiraltraining.github.io/WW01_DataAnalysiswithR/"
-  favicon: "images/bioconductor.png"
+  favicon: "images/logo.png"
   
   repo-url: https://github.com/hossainlab/clinical-reporting-gtsummary-rmed
   repo-actions: [edit, issue]
@@ -29,7 +29,7 @@ website:
 
   sidebar:
     background: "#708090"
-    logo: "images/bioconductor.png"
+    logo: "images/logo.png"
     pinned: true
     align: center
     tools:
