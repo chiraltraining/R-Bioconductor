@@ -57,9 +57,6 @@ Upon completion of a course on R/Bioconductor for Bioinformatics, students will 
 * Understand the syntax, data types, control structures, and functions in R
 * Understand the Bioconductor infrastructure, including the package installation, management, and documentation
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width = "100%"}
-knitr::include_graphics("images/learnr.jpg")
-```
 
 **2. Perform exploratory data analysis, visualization, quality control, and statistical analysis using R/Bioconductor**
 
