@@ -11,8 +11,8 @@ website:
   page-navigation: true
   title: "R/Bioconductor for Multi-Omics Data Science"
   description: "Learn to Analyze Genomics, Metagenomics, and Transcriptomics Data with R"
-  site-url: "https://chiraltraining.github.io/WW01_DataAnalysiswithR/"
-  favicon: "images/logo.png"
+  site-url: "https://chiraltraining.github.io/R-Bioconductor/"
+  favicon: "images/Rlogo.png"
   
   repo-url: https://github.com/hossainlab/clinical-reporting-gtsummary-rmed
   repo-actions: [edit, issue]
