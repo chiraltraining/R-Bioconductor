@@ -1,0 +1,247 @@
+---
+title: "R/Bioconductor for Multi-Omics Data Science"
+subtitle: "Learn to Analyze Genomics, Metagenomics, and Transcriptomics Data with R"
+editor: source
+---
+
+<!-- https://github.com/rstudio-conf-2022/teach-ds -->
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+knitr::include_graphics("images/bioconductor_banner.jpg")
+```
+
+------------------------------------------------------------------------
+
+🗓 March 25, 2023 \| 8:00am - 100:00pm BDT
+
+🏨 Medium - Zoom/Google Meet
+
+💥 **Register** with [Google Forms](https://forms.gle/NHSTSwgbCDdQzuxKA)
+
+💥 **Registration Fee**: 5100 BDT (for students),8160BDT (for professionals)
+
+📝 To register for the workshop, follow instructions in the email "*Weekend Workshops*" you received after registration.
+
+------------------------------------------------------------------------
+
+# Overview
+
+This course is designed to introduce students to the use of R/Bioconductor for bioinformatics data analysis. R/Bioconductor is a popular open-source programming language and environment used for statistical computing and graphics, specifically for the analysis of biological data. The course will cover the basics of R programming language and its applications to bioinformatics, including the use of Bioconductor packages for analysis of high-throughput sequencing data, gene expression data, and proteomics data.
+
+Students will learn how to perform exploratory data analysis, visualization, quality control, and statistical analysis using R/Bioconductor packages. Topics covered will include data import and export, data manipulation and transformation, normalization, differential expression analysis, functional enrichment analysis, and pathway analysis. The course will also provide an introduction to machine learning techniques for bioinformatics analysis.
+
+Throughout the course, students will apply their knowledge through practical exercises and projects. By the end of the course, students will have a good understanding of R/Bioconductor and be able to apply it to their own bioinformatics research projects.
+
+## What is R?
+
+R is an open source language and environment for statistical computing, data mining, modeling, and data graphics. It provides a wide variety of statistical and graphical techniques such as linear and non-linear modeling, statistical tests, time series analysis, classification, and clustering.
+
+R is one of the most used business analytics tools. For example, Facebook uses R for behavior analysis related to status updates and profile pictures. Google uses it to analyze advertising effectiveness and economic forecasting. Twitter leverages R for data visualization and semantic clustering. In the 2016 data science salary survey conducted by O'Reilly, R was ranked second in a category of programming languages for data science.
+
+## What is Bioconductor?
+
+Bioconductor is an open-source, open-development software project for the analysis and comprehension of genomic data, primarily focused on the R programming language. Bioconductor provides a wide range of tools for the analysis and interpretation of high-throughput genomic data, including microarrays, next-generation sequencing data, proteomics data, and other genomic data types.
+
+Bioconductor consists of a collection of packages that are designed for specific genomic data analysis tasks, such as normalization, differential gene expression analysis, pathway analysis, visualization, and machine learning. The packages are regularly updated and maintained by a large and active community of developers and users.
+
+Bioconductor also provides an extensive documentation, including tutorials, vignettes, and manuals, to help users get started with the software and to guide them through the analysis process.
+
+In summary, Bioconductor is an essential resource for researchers and scientists working in the field of genomics and bioinformatics, providing a powerful and flexible platform for the analysis and interpretation of genomic data.
+
+## Learning Objectives 
+
+Upon completion of a course on R/Bioconductor for Bioinformatics, students will be able to:
+
+**1. Understand the basics of R programming language and Bioconductor packages for bioinformatics**
+
+* Understand the syntax, data types, control structures, and functions in R
+* Understand the Bioconductor infrastructure, including the package installation, management, and documentation
+
+**2. Perform exploratory data analysis, visualization, quality control, and statistical analysis using R/Bioconductor**
+
+- Load and manipulate different types of genomic data, including microarray, RNA-seq, ChIP-seq, and proteomics data
+- Perform exploratory data analysis and visualization using R/Bioconductor packages
+- Perform quality control of genomic data and identify problematic samples
+- Use statistical methods for hypothesis testing, such as t-tests, ANOVA, and regression analysis
+
+**3. Apply R/Bioconductor to high-throughput sequencing data, gene expression data, and proteomics data analysis**
+
+- Process and normalize high-throughput sequencing data using R/Bioconductor packages
+- Perform differential expression analysis of RNA-seq data to identify differentially expressed genes
+- Perform ChIP-seq analysis to identify enriched regions and motifs
+- Perform proteomics data analysis to identify differentially expressed proteins
+- Perform differential expression analysis, functional enrichment analysis, and pathway analysis using R/Bioconductor
+
+**4. Perform differential expression analysis of genomic data to identify differentially expressed genes, transcripts, or proteins**
+
+- Perform functional enrichment analysis to identify overrepresented biological pathways or gene ontology terms
+- Perform pathway analysis to identify pathways that are significantly altered in different biological conditions
+
+**5. Apply machine learning techniques for bioinformatics analysis**
+
+- Understand the principles of machine learning and supervised and unsupervised learning
+- Apply machine learning techniques, such as random forests, support vector machines, and principal component analysis, for the analysis of genomic data
+
+**6. Design and implement a bioinformatics research project using R/Bioconductor**
+
+- Understand the steps involved in designing and implementing a bioinformatics research project
+- Identify and formulate a research question that can be answered using genomic data analysis
+- Collect and preprocess the required genomic data
+- Perform the required genomic data analysis using R/Bioconductor packages
+- Interpret and visualize the results of genomic data analysis
+- Communicate the findings of genomic data analysis effectively in written and oral formats.
+
+## Why R?
+
+-   R is a programming and statistical language.
+-   R is used for data Analysis and Visualization.
+-   R is simple and easy to learn, read and write.
+-   R is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.
+
+## Who uses R?
+
+-   The Consumer Financial Protection Bureau uses R for data analysis
+-   Statisticians at John Deere use R for time series modeling and geospatial analysis in a reliable and reproducible way.
+-   Bank of America uses R for reporting.
+-   R is part of technology stack behind Foursquare's famed recommendation engine.
+-   ANZ, the fourth largest bank in Australia, using R for credit risk analysis.
+-   Google uses R to predict Economic Activity.
+-   Mozilla, the foundation responsible for the Firefox web browser, uses R to visualize Web activity
+
+## Evolution of R
+
+-   R is an implementation of S programming language which was created by John Chambers at Bell Labs.
+-   R was initially written by Ross Ihaka and Robert Gentleman at the Department of Statistics of the University of Auckland in Auckland, New Zealand.
+-   R made its first public appearance in 1993.
+-   A large group of individuals has contributed to R by sending code and bug reports.Since mid-1997 there has been a core group (the "R Core Team") who can modify the R source code archive.
+-   In the year 2000 R 1.0.0 released.
+-   R 3.0.0 was released in 2013.
+
+## Features of R
+
+-   R supports procedural programming with functions and object-oriented programming with generic functions. Procedural programming includes procedure, records, modules, and procedure calls. While object-oriented programming languageincludes class, objects, and functions.
+-   Packages are part of R programming. Hence, they are useful in collecting sets of R functions into a single unit.
+-   R is a well-developed, simple and effective programming language which includes conditionals, loops, user defined recursive functions and input and output facilities.
+-   R has an effective data handling and storage facility,
+-   R provides a suite of operators for calculations on arrays, lists, vectors and matrices.
+-   R provides a large, coherent and integrated collection of tools for data analysis. It provides graphical facilities for data analysis and display either directly at the computer or printing at the papers.
+-   Rs programming features include database input, exporting data, viewing data, variable labels, missing data, etc.
+-   R is an interpreted language. So we can access it through command line interpreter.
+-   R supports matrix arithmetic.
+-   R, SAS, and SPSS are three statistical languages. Of these three statistical languages, R is the only an open source.
+
+## Useful resources for learning R
+
+- **DataCamp:** interactive online lessons in R.
+
+    -   Some of the courses are free (particularly community-written lessons like the one you'll do today), but for paid courses, DataCamp costs about 300 SEK / mo.
+
+-   **RStudio Cheat Sheets:** Very helpful 1-2 page overviews of common tasks and packages in R.
+
+-   **Quick-R:** Website with short example-driven overviews of R functionality.
+
+-   **StackOverflow:** Part of the Stack Exchange network, StackOverflow is a Q&A community website for people who work in programming. Tons of incredibly good R users and developers interact on StackExchange, so it's a great place to search for answers to your questions.
+
+-   **R-Bloggers:** Blog aggregagator for posts about R. Great place to learn really cool things you can do in R.
+
+-   **R for Data Science:** Online version of the book by Hadley Wickham, who has written many of the best packages for R, including the Tidyverse, which we will cover.
+
+## Textbook
+
+-   Wickham, H. & Grolemund, G. (2018). for Data Science. O'Reilly: New York. Available for free at <http://r4ds.had.co.nz> (FREE)
+
+-   Sosulski, K. (2018). R Fundamentals. Bookdown: New York. Available at: <http://becomingvisual.com/rfundamentals> (FREE)
+
+## Required software
+
+-   R: <http://www.r-project.org/> (FREE)
+-   RStudio (additional libraries required): <http://www.rstudio.com/> (FREE)
+
+## Recording of classes
+
+Class lectures will be recorded automatically using cloud. The links will be posted to CHIRAL Classes when they are available.
+
+## Is this course for me?
+
+If your answer to any of the following questions is "yes", then this is the right workshop for you.
+
+-   Do you make summary tables in R (data, survey data, regression models, time-to-event data, adverse event reports)?
+
+-   Do you want your workflow to be reproducible?
+
+-   Are you often frustrated with the immense amount of code required to create great-looking tables in R?
+
+The workshop is designed for those with some experience in R. It will be expected that you can perform basic data manipulation. Experience with the {tidyverse} and the `%>%` operator is a plus, but not required.
+
+## Prework
+
+Before attending the workshop please have the following installed and configured on your machine.
+
+-   Recent version of **R**
+
+-   Recent version of **RStudio**
+
+-   Most recent release of the [**Bioconductor**](https://www.bioconductor.org/install/) and other packages used in courses
+
+Install the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands. 
+
+```{r, eval=FALSE}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install(version = "3.16")
+```
+
+- Ensure you can knit R markdown documents
+
+    -   Open RStudio and create a new Rmarkdown document
+    -   Save the document and check you are able to knit it.
+
+## Install Bioconductor Packages
+```{r, eval=FALSE}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install()
+```
+
+Install specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with
+
+
+```{r, eval=FALSE}
+BiocManager::install(c("GenomicFeatures", "AnnotationDbi"))
+```
+
+The install() function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help.
+
+## Zoom + Working Virtually
+
+-   Zoom link will be emailed to students
+
+-   Class sessions will be recorded and later posted
+
+-   We will have lectures as well as breakout room sessions to work on labs
+
+-   Please be aware that there is the option to use closed captioning:
+
+## Team
+
+#### Md. Jubayer Hossain
+
+![](images/JHossain.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Jubayer" width="200"}
+
+[Md. Jubayer Hossain]() is the Founder and Data Analyst at [CHIRAL Bangladesh](). CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research. His research interests include health data science and machine learning in healthcare.
+
+<br/>
+
+#### Md. Wahidul Islam
+
+![](images/wahidul.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Wahidul" width="200"}
+
+Wahidul Islam is an undergraduate student in the Department of Microbiology at Jagannath University, Dhaka, Bangladesh. Bioinformatics, Immunology, Cell Biology, Biostatistics, Public health, and Microbiology are some of his research interests. Currently, he is working as a research assistant in Population Health Studies Division & Genomic Data Science Center at CHIRAL Bangladesh. He also leads the seminar and workshop team at CHIRAL Bangladesh.
+
+<br/>
+
+#### Muhibullah Shahjahan
+
+![](images/muhibullah.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of muhibullah" width="200"}
+
+Muhibullah is an undergraduate student in the Department of Microbiology at Jagannath University and health data analysis, bioinformatics are some of his research interests. Currently, he is working as a research assistant at CHIRAL Bangladesh.

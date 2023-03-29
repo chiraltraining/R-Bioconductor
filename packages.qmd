@@ -1,0 +1,13 @@
+---
+title: "Packages"
+subtitle: "R/Bioconductor for Bioinformatics"
+editor: source
+---
+
+- **DESeq2:** DESeq2 is a package for differential gene expression analysis based on the negative binomial distribution. It provides methods for filtering low count genes, estimating dispersion, and testing for differential expression.
+
+- **limma:** limma is a package for linear models and empirical Bayes methods for analyzing microarray and RNA-Seq data. It provides methods for normalization, quality control, and statistical analysis of differential gene expression.
+
+- **edgeR:** edgeR is a package for differential gene expression analysis based on the negative binomial distribution. It provides methods for filtering low count genes, estimating dispersion, and testing for differential expression. It also includes methods for analyzing differential expression between multiple groups.
+
+
