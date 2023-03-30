@@ -12,15 +12,15 @@ knitr::include_graphics("images/bioconductor_banner.jpg")
 
 ------------------------------------------------------------------------
 
-🗓 March 25, 2023 \| 8:00am - 100:00pm BDT
+🗓 May 5, 2023 - May 27, 2023 \| 9:00 pm - 11:00pm (Bangladesh Time)
 
 🏨 Medium - Zoom/Google Meet
 
 💥 **Register** with [Google Forms](https://forms.gle/NHSTSwgbCDdQzuxKA)
 
-💥 **Registration Fee**: 5100 BDT (for students),8160BDT (for professionals)
+💥 **Registration Fee**: 3060 BDT (for students),4080BDT (for professionals)
 
-📝 To register for the workshop, follow instructions in the email "*Weekend Workshops*" you received after registration.
+📝 To join private Telegram group for the course, follow instructions in the email you received after registration.
 
 ------------------------------------------------------------------------
 
