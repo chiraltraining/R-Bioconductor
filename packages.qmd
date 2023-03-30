@@ -4,6 +4,46 @@ subtitle: "R/Bioconductor for Bioinformatics"
 editor: source
 ---
 
+## Install Required Packages
+
+From CRAN and Bioconductor
+```{r}
+install.packages('BiocManager')
+BiocManager::install('methods')
+BiocManager::install('ggplot2')
+BiocManager::install('goseq')
+BiocManager::install('rmarkdown')
+BiocManager::install('org.Mm.eg.db')
+BiocManager::install('DESeq2')
+BiocManager::install('apeglm')
+BiocManager::install('tximport')
+BiocManager::install('ShortRead')
+BiocManager::install('BSgenome.Mmusculus.UCSC.mm10')
+BiocManager::install('TxDb.Mmusculus.UCSC.mm10.knownGene')
+BiocManager::install('Rsubread')
+BiocManager::install('Rsamtools')
+BiocManager::install('GenomicAlignments')
+BiocManager::install('TxDb.Hsapiens.UCSC.hg19.knownGene')
+BiocManager::install('GenomicFeatures')
+BiocManager::install('GSEABase')
+BiocManager::install('fgsea')
+BiocManager::install('DEXSeq')
+BiocManager::install('limma')
+BiocManager::install('Herper')
+BiocManager::install('msigdbr')
+BiocManager::install('RColorBrewer')
+BiocManager::install('vsn')
+BiocManager::install('clusterProfiler')
+BiocManager::install('NbClust')
+BiocManager::install('pheatmap')
+BiocManager::install('enrichplot')
+BiocManager::install('Rfastp')
+BiocManager::install('ggnewscale')
+BiocManager::install('knitr')
+BiocManager::install('testthat')
+BiocManager::install('yaml')
+```
+
 - **DESeq2:** DESeq2 is a package for differential gene expression analysis based on the negative binomial distribution. It provides methods for filtering low count genes, estimating dispersion, and testing for differential expression.
 
 - **limma:** limma is a package for linear models and empirical Bayes methods for analyzing microarray and RNA-Seq data. It provides methods for normalization, quality control, and statistical analysis of differential gene expression.
