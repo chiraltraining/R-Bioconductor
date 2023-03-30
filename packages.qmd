@@ -7,7 +7,7 @@ editor: source
 ## Install Required Packages
 
 From CRAN and Bioconductor
-```{r}
+```{r, eval=FALSE}
 install.packages('BiocManager')
 BiocManager::install('methods')
 BiocManager::install('ggplot2')

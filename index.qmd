@@ -16,7 +16,7 @@ knitr::include_graphics("images/bioconductor_banner.jpg")
 
 🏨 Medium - Zoom/Google Meet
 
-💥 **Register** with [Google Forms](https://forms.gle/NHSTSwgbCDdQzuxKA)
+💥 **Register** with [Google Forms](https://forms.gle/hSH1ACSqDYYVsxie6)
 
 💥 **Registration Fee**: 3060 BDT (for students),4080BDT (for professionals)
 
