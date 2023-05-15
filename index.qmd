@@ -1,14 +1,10 @@
 ---
-title: "R/Bioconductor for Multi-Omics Data Science"
+title: "R for Bioinformatics"
 subtitle: "Learn to Analyze Genomics, Metagenomics, and Transcriptomics Data with R"
 editor: source
 ---
 
 <!-- https://github.com/rstudio-conf-2022/teach-ds -->
-
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
-knitr::include_graphics("images/bioconductor_banner.jpg")
-```
 
 ------------------------------------------------------------------------
 
@@ -25,28 +21,10 @@ knitr::include_graphics("images/bioconductor_banner.jpg")
 ------------------------------------------------------------------------
 
 # Overview
-
-This course is designed to introduce students to the use of R/Bioconductor for bioinformatics data analysis. R/Bioconductor is a popular open-source programming language and environment used for statistical computing and graphics, specifically for the analysis of biological data. The course will cover the basics of R programming language and its applications to bioinformatics, including the use of Bioconductor packages for analysis of high-throughput sequencing data, gene expression data, and proteomics data.
-
-Students will learn how to perform exploratory data analysis, visualization, quality control, and statistical analysis using R/Bioconductor packages. Topics covered will include data import and export, data manipulation and transformation, normalization, differential expression analysis, functional enrichment analysis, and pathway analysis. The course will also provide an introduction to machine learning techniques for bioinformatics analysis.
-
-Throughout the course, students will apply their knowledge through practical exercises and projects. By the end of the course, students will have a good understanding of R/Bioconductor and be able to apply it to their own bioinformatics research projects.
-
-## What is R?
-
-R is an open source language and environment for statistical computing, data mining, modeling, and data graphics. It provides a wide variety of statistical and graphical techniques such as linear and non-linear modeling, statistical tests, time series analysis, classification, and clustering.
+The R for Bioinformatics course is designed to provide students with a comprehensive understanding of how to utilize the R programming language for analyzing biological data and solving bioinformatics problems. The course is suitable for students and professionals with a basic understanding of programming concepts and a background in biology or bioinformatics.
 
 
 
-## What is Bioconductor?
-
-Bioconductor is an open-source, open-development software project for the analysis and comprehension of genomic data, primarily focused on the R programming language. Bioconductor provides a wide range of tools for the analysis and interpretation of high-throughput genomic data, including microarrays, next-generation sequencing data, proteomics data, and other genomic data types.
-
-Bioconductor consists of a collection of packages that are designed for specific genomic data analysis tasks, such as normalization, differential gene expression analysis, pathway analysis, visualization, and machine learning. The packages are regularly updated and maintained by a large and active community of developers and users.
-
-Bioconductor also provides an extensive documentation, including tutorials, vignettes, and manuals, to help users get started with the software and to guide them through the analysis process.
-
-In summary, Bioconductor is an essential resource for researchers and scientists working in the field of genomics and bioinformatics, providing a powerful and flexible platform for the analysis and interpretation of genomic data.
 
 ## Learning Objectives 
 

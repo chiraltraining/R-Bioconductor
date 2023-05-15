@@ -30,7 +30,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "",
     "text": "🗓 May 5, 2023 - May 27, 2023 | 9:00 pm - 11:00pm (Bangladesh Time)\n🏨 Medium - Zoom/Google Meet\n💥 Register with Google Forms\n💥 Registration Fee: 3060 BDT (for students),4080BDT (for professionals)\n📝 To join private Telegram group for the course, follow instructions in the email you received after registration."
   },
@@ -65,7 +65,7 @@
   {
     "objectID": "index.html#why-r",
     "href": "index.html#why-r",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "Why R?",
     "text": "Why R?\n\nR is a programming and statistical language.\nR is used for data Analysis and Visualization.\nR is simple and easy to learn, read and write.\nR is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc."
   },
@@ -100,7 +100,7 @@
   {
     "objectID": "index.html#useful-resources-for-learning-r",
     "href": "index.html#useful-resources-for-learning-r",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "Useful resources for learning R",
     "text": "Useful resources for learning R\n\nDataCamp: interactive online lessons in R.\n\nSome of the courses are free (particularly community-written lessons like the one you’ll do today), but for paid courses, DataCamp costs about 300 SEK / mo.\n\nRStudio Cheat Sheets: Very helpful 1-2 page overviews of common tasks and packages in R.\nQuick-R: Website with short example-driven overviews of R functionality.\nStackOverflow: Part of the Stack Exchange network, StackOverflow is a Q&A community website for people who work in programming. Tons of incredibly good R users and developers interact on StackExchange, so it’s a great place to search for answers to your questions.\nR-Bloggers: Blog aggregagator for posts about R. Great place to learn really cool things you can do in R.\nR for Data Science: Online version of the book by Hadley Wickham, who has written many of the best packages for R, including the Tidyverse, which we will cover."
   },
@@ -114,21 +114,21 @@
   {
     "objectID": "index.html#textbook",
     "href": "index.html#textbook",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "Textbook",
     "text": "Textbook\n\nWickham, H. & Grolemund, G. (2018). for Data Science. O’Reilly: New York. Available for free at http://r4ds.had.co.nz (FREE)\nSosulski, K. (2018). R Fundamentals. Bookdown: New York. Available at: http://becomingvisual.com/rfundamentals (FREE)"
   },
   {
     "objectID": "index.html#required-software",
     "href": "index.html#required-software",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "Required software",
     "text": "Required software\n\nR: http://www.r-project.org/ (FREE)\nRStudio (additional libraries required): http://www.rstudio.com/ (FREE)"
   },
   {
     "objectID": "index.html#recording-of-classes",
     "href": "index.html#recording-of-classes",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "Recording of classes",
     "text": "Recording of classes\nClass lectures will be recorded automatically using cloud. The links will be posted to CHIRAL Classes when they are available."
   },
@@ -142,21 +142,21 @@
   {
     "objectID": "index.html#is-this-course-for-me",
     "href": "index.html#is-this-course-for-me",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "Is this course for me?",
     "text": "Is this course for me?\nIf your answer to any of the following questions is “yes”, then this is the right workshop for you.\n\nDo you make summary tables in R (data, survey data, regression models, time-to-event data, adverse event reports)?\nDo you want your workflow to be reproducible?\nAre you often frustrated with the immense amount of code required to create great-looking tables in R?\n\nThe workshop is designed for those with some experience in R. It will be expected that you can perform basic data manipulation. Experience with the {tidyverse} and the %>% operator is a plus, but not required."
   },
   {
     "objectID": "index.html#prework",
     "href": "index.html#prework",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "Prework",
     "text": "Prework\nBefore attending the workshop please have the following installed and configured on your machine.\n\nRecent version of R\nRecent version of RStudio\nMost recent release of the Bioconductor and other packages used in courses\n\nInstall the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install(version = \"3.16\")\n\n\nEnsure you can knit R markdown documents\n\nOpen RStudio and create a new Rmarkdown document\nSave the document and check you are able to knit it."
   },
   {
     "objectID": "index.html#zoom-working-virtually",
     "href": "index.html#zoom-working-virtually",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "Zoom + Working Virtually",
     "text": "Zoom + Working Virtually\n\nZoom link will be emailed to students\nClass sessions will be recorded and later posted\nWe will have lectures as well as breakout room sessions to work on labs\nPlease be aware that there is the option to use closed captioning:"
   },
@@ -4881,7 +4881,7 @@
   {
     "objectID": "index.html#team",
     "href": "index.html#team",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "Team",
     "text": "Team\n\nMd. Jubayer Hossain (Instructor)\n\nMd. Jubayer Hossain is the Founder and Data Analyst at CHIRAL Bangladesh. CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research. His research interests include health data science and machine learning in healthcare.\n\n\n\nMd. Wahidul Islam (Teaching Assistant)\n\nWahidul Islam is an undergraduate student in the Department of Microbiology at Jagannath University, Dhaka, Bangladesh. Bioinformatics, Immunology, Cell Biology, Biostatistics, Public health, and Microbiology are some of his research interests. Currently, he is working as a research assistant in Population Health Studies Division & Genomic Data Science Center at CHIRAL Bangladesh. He also leads the seminar and workshop team at CHIRAL Bangladesh.\n\n\n\nMuhibullah Shahjahan (Teaching Assistant)\n\nMuhibullah is an undergraduate student in the Department of Microbiology at Jagannath University and health data analysis, bioinformatics are some of his research interests. Currently, he is working as a research assistant at CHIRAL Bangladesh."
   },
@@ -4902,14 +4902,14 @@
   {
     "objectID": "index.html#learning-objectives",
     "href": "index.html#learning-objectives",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "Learning Objectives",
     "text": "Learning Objectives\nUpon completion of a course on R/Bioconductor for Bioinformatics, students will be able to:\n1. Understand the basics of R programming language and Bioconductor packages for bioinformatics\n\nUnderstand the syntax, data types, control structures, and functions in R\nUnderstand the Bioconductor infrastructure, including the package installation, management, and documentation\n\n2. Perform exploratory data analysis, visualization, quality control, and statistical analysis using R/Bioconductor\n\nLoad and manipulate different types of genomic data, including microarray, RNA-seq, ChIP-seq, and proteomics data\nPerform exploratory data analysis and visualization using R/Bioconductor packages\nPerform quality control of genomic data and identify problematic samples\nUse statistical methods for hypothesis testing, such as t-tests, ANOVA, and regression analysis\n\n\n\n\n\n\n3. Apply R/Bioconductor to high-throughput sequencing data, gene expression data, and proteomics data analysis\n\nProcess and normalize high-throughput sequencing data using R/Bioconductor packages\nPerform differential expression analysis of RNA-seq data to identify differentially expressed genes\nPerform ChIP-seq analysis to identify enriched regions and motifs\nPerform proteomics data analysis to identify differentially expressed proteins\nPerform differential expression analysis, functional enrichment analysis, and pathway analysis using R/Bioconductor\n\n\n\n\n\n\n4. Perform differential expression analysis of genomic data to identify differentially expressed genes, transcripts, or proteins\n\nPerform functional enrichment analysis to identify overrepresented biological pathways or gene ontology terms\nPerform pathway analysis to identify pathways that are significantly altered in different biological conditions\n\n\n\n\n\n\n5. Apply machine learning techniques for bioinformatics analysis\n\nUnderstand the principles of machine learning and supervised and unsupervised learning\nApply machine learning techniques, such as random forests, support vector machines, and principal component analysis, for the analysis of genomic data\n\n6. Design and implement a bioinformatics research project using R/Bioconductor\n\nUnderstand the steps involved in designing and implementing a bioinformatics research project\nIdentify and formulate a research question that can be answered using genomic data analysis\nCollect and preprocess the required genomic data\nPerform the required genomic data analysis using R/Bioconductor packages\nInterpret and visualize the results of genomic data analysis\nCommunicate the findings of genomic data analysis effectively in written and oral formats."
   },
   {
     "objectID": "index.html#install-bioconductor-packages",
     "href": "index.html#install-bioconductor-packages",
-    "title": "R/Bioconductor for Multi-Omics Data Science",
+    "title": "R for Bioinformatics",
     "section": "Install Bioconductor Packages",
     "text": "Install Bioconductor Packages\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install()\n\nInstall specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with\n\nBiocManager::install(c(\"GenomicFeatures\", \"AnnotationDbi\"))\n\nThe install() function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help."
   },

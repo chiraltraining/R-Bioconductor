@@ -9,10 +9,10 @@ project:
 
 website:
   page-navigation: true
-  title: "R/Bioconductor for Multi-Omics Data Science"
+  title: "R for Bioinformatics"
   description: "Learn to Analyze Genomics, Metagenomics, and Transcriptomics Data with R"
   site-url: "https://chiraltraining.github.io/R-Bioconductor/"
-  favicon: "images/Rlogo.png"
+  favicon: "images/baseplot.png"
   
   repo-url: https://github.com/hossainlab/clinical-reporting-gtsummary-rmed
   repo-actions: [edit, issue]
@@ -29,14 +29,22 @@ website:
 
   sidebar:
     background: "#708090"
-    logo: "images/Rlogo.png"
+    logo: "images/baseplot.png"
     pinned: true
     align: center
     tools:
       - icon: github
-        href: https://github.com/hossainlab/
+        href: https://github.com/chiraltraining/
         text: GitHub
-        
+      - icon: facebook
+        href: https://www.facebook.com/chiralbd.org
+        text: Facebook
+      - icon: twitter
+        href: https://twitter.com/chiralbd
+        text: Twitter
+      - icon: linkedin
+        href: https://www.linkedin.com/company/chiral-bangladesh/mycompany/?viewAsMember=true
+        text: LinkedIn
     style: docked
     contents:
      - href: index.qmd
