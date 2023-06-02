@@ -8,81 +8,44 @@ editor: source
 
 ------------------------------------------------------------------------
 
-🗓 May 5, 2023 - May 27, 2023 \| 9:00 pm - 11:00pm (Bangladesh Time)
+🗓 July 11 - July 20, 2023 \| 9:00 pm - 11:00pm (Bangladesh Time)
 
 🏨 Medium - Zoom/Google Meet
 
 💥 **Register** with [Google Forms](https://forms.gle/hSH1ACSqDYYVsxie6)
 
-💥 **Registration Fee**: 3060 BDT (for students),4080BDT (for professionals)
+💥 **Registration Fee**: 1020 BDT (for students),1530BDT (for professionals)
 
 📝 To join private Telegram group for the course, follow instructions in the email you received after registration.
 
 ------------------------------------------------------------------------
 
 # Overview
-The R for Bioinformatics course is designed to provide students with a comprehensive understanding of how to utilize the R programming language for analyzing biological data and solving bioinformatics problems. The course is suitable for students and professionals with a basic understanding of programming concepts and a background in biology or bioinformatics.
+Welcome to the exciting world of bioinformatics! In this course, we will explore the application of the R programming language in the field of bioinformatics. Whether you are a biologist, a computer scientist, or simply someone interested in the intersection of biology and programming, this book is designed to help you get started with using R for bioinformatics.
+
+Bioinformatics combines biology, computer science, statistics, and math to understand complex biological processes. R is a powerful programming language widely used in bioinformatics for data analysis, visualization, and modeling. It has a rich set of packages and libraries for processing biological data.
+
+This course assumes no prior knowledge of R programming, but assumes basic understanding of statistics and bioinformatics. We'll cover data manipulation, visualization, statistics, and common bioinformatics techniques.
+
+Remember, learning a new language and field takes time and practice. Stay persistent, ask questions, and engage actively with the material. Let's embark on this exciting journey into bioinformatics with R. By the end, you'll have the skills to explore and contribute to bioinformatics research.
+
+Enjoy your learning experience, and good luck!
 
 
 
+## Learning bbjectives 
+- Understand the fundamentals of bioinformatics and its application in biological research.
 
-## Learning Objectives 
+- Gain a solid foundation in R programming, including data structures, control flow, and functions.
 
-Upon completion of a course on R/Bioconductor for Bioinformatics, students will be able to:
+- Learn data manipulation techniques specific to bioinformatics, such as working with DNA sequences and protein structures.
 
-**1. Understand the basics of R programming language and Bioconductor packages for bioinformatics**
+- Gain hands-on experience by working with real-world bioinformatics datasets and applying R to extract valuable information.
 
-* Understand the syntax, data types, control structures, and functions in R
-* Understand the Bioconductor infrastructure, including the package installation, management, and documentation
+- Understand the importance of reproducibility and best practices in bioinformatics research using R.
 
+- Feel confident in applying R for basic bioinformatics tasks and be ready to explore more advanced topics in the field.
 
-**2. Perform exploratory data analysis, visualization, quality control, and statistical analysis using R/Bioconductor**
-
-- Load and manipulate different types of genomic data, including microarray, RNA-seq, ChIP-seq, and proteomics data
-- Perform exploratory data analysis and visualization using R/Bioconductor packages
-- Perform quality control of genomic data and identify problematic samples
-- Use statistical methods for hypothesis testing, such as t-tests, ANOVA, and regression analysis
-
-```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width = "100%"}
-knitr::include_graphics("images/eda2.png")
-```
-
-
-**3. Apply R/Bioconductor to high-throughput sequencing data, gene expression data, and proteomics data analysis**
-
-- Process and normalize high-throughput sequencing data using R/Bioconductor packages
-- Perform differential expression analysis of RNA-seq data to identify differentially expressed genes
-- Perform ChIP-seq analysis to identify enriched regions and motifs
-- Perform proteomics data analysis to identify differentially expressed proteins
-- Perform differential expression analysis, functional enrichment analysis, and pathway analysis using R/Bioconductor
-
-```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width = "100%"}
-knitr::include_graphics("images/heatmap2.png")
-```
-
-**4. Perform differential expression analysis of genomic data to identify differentially expressed genes, transcripts, or proteins**
-
-- Perform functional enrichment analysis to identify overrepresented biological pathways or gene ontology terms
-- Perform pathway analysis to identify pathways that are significantly altered in different biological conditions
-
-
-```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width = "80%"}
-knitr::include_graphics("images/volcano plot.png")
-```
-
-**5. Apply machine learning techniques for bioinformatics analysis**
-
-- Understand the principles of machine learning and supervised and unsupervised learning
-- Apply machine learning techniques, such as random forests, support vector machines, and principal component analysis, for the analysis of genomic data
-
-**6. Design and implement a bioinformatics research project using R/Bioconductor**
-
-- Understand the steps involved in designing and implementing a bioinformatics research project
-- Identify and formulate a research question that can be answered using genomic data analysis
-- Collect and preprocess the required genomic data
-- Perform the required genomic data analysis using R/Bioconductor packages
-- Interpret and visualize the results of genomic data analysis
-- Communicate the findings of genomic data analysis effectively in written and oral formats.
 
 ## Why R?
 
@@ -93,9 +56,6 @@ knitr::include_graphics("images/volcano plot.png")
 
 
 ## Useful resources for learning R
-
-
-
 
 - **DataCamp:** interactive online lessons in R.
 
@@ -111,16 +71,40 @@ knitr::include_graphics("images/volcano plot.png")
 
 -   **R for Data Science:** Online version of the book by Hadley Wickham, who has written many of the best packages for R, including the Tidyverse, which we will cover.
 
-## Textbook
 
--   Wickham, H. & Grolemund, G. (2018). for Data Science. O'Reilly: New York. Available for free at <http://r4ds.had.co.nz> (FREE)
+# Required Textbooks
+The following books purchased and are avilable at the online book store. We have also a placed a copy of each on reserve at our online library.
 
--   Sosulski, K. (2018). R Fundamentals. Bookdown: New York. Available at: <http://becomingvisual.com/rfundamentals> (FREE)
+- [Fundamentals of Biostatistics by Bernard Rosner, Harvard University]()
+- [Applied Statistics by PennState Eberly College of Science]()
+- [Applied Medical Statistics for Beginners by Dr. Mohamed Elsherif]()
+- [Biostatistics by University of Florida]()
+- [Introduction to R Programming by Dr. Roger D. Peng]() 
+- [R for Data Science by Roger D.Peng](https://bookdown.org/rdpeng/rprogdatascience/)
+- [Introduction to Data Science by Rafael Irizarry](https://rafalab.github.io/dsbook/)
+- [Data Analysis for the Life Sciences by Rafael Irizarry](https://rafalab.github.io/pagesharvardx.html)
+- [Exploratory Data Analysis with R by Roger D.Peng ](https://bookdown.org/rdpeng/rprogdatascience/)
+
+
+## Blogs for R Programming, Statistics, and Data Analyis 
+- Programiz - [https://www.datamentor.io/r-programming/](https://www.datamentor.io/r-programming/)
+- PennState STAT 484 - [https://online.stat.psu.edu/stat484/](https://online.stat.psu.edu/stat484/)
+- PennState Topics in R Statistical Language - 
+ [https://online.stat.psu.edu/stat484/](https://online.stat.psu.edu/stat484/)
+- Simply Statistics - [https://simplystatistics.org/](https://simplystatistics.org/)
+- TutorialPoint - [https://www.tutorialspoint.com/r/index.htm](https://www.tutorialspoint.com/r/index.htm)
+- R for Biologists - [https://www.rforbiologists.org/](https://www.rforbiologists.org/)
+- Computational Genomics with R -  [https://compgenomr.github.io/book/](https://compgenomr.github.io/book/)
+- Stat and R - [https://statsandr.com/](https://statsandr.com/)
+- Rafa Lab - [https://rafalab.github.io/pages/harvardx.html](https://rafalab.github.io/pages/harvardx.html)
+- University of Florida - [https://bolt.mph.ufl.edu/software/r-phc-6055/](https://bolt.mph.ufl.edu/software/r-phc-6055/)
+
+
 
 ## Required software
+- R: <http://www.r-project.org/> (FREE)
+- RStudio (additional libraries required): <http://www.rstudio.com/> (FREE)
 
--   R: <http://www.r-project.org/> (FREE)
--   RStudio (additional libraries required): <http://www.rstudio.com/> (FREE)
 
 ## Recording of classes
 
@@ -187,26 +171,20 @@ The install() function (in the BiocManager package) has arguments that change it
 
 -   Please be aware that there is the option to use closed captioning:
 
-## Team
 
-#### Md. Jubayer Hossain (Instructor)
+## Instructor
+
+#### Bio
 
 ![](images/JHossain.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Jubayer" width="200"}
+[Md. Jubayer Hossain](https://hossainlab.github.io/) is the Founder, Management Lead and Data Analyst at CHIRAL Bangladesh. CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of people around him by working at the intersection of education, technology, and health research. His research interests include public health, health data science, remote sensing, GIS applications in health,  and machine learning in healthcare. He has been teaching programming, data analysis, data science, and research methodology since 2020 in CHIRAL Bangladesh. Detailed research and teaching activities were found on his [website.](https://hossainlab.github.io/)  
 
-[Md. Jubayer Hossain]() is the Founder and Data Analyst at [CHIRAL Bangladesh](). CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research. His research interests include health data science and machine learning in healthcare.
+#### Skills 
+**Programming Languages:** Python, R, SQL, Julia, JavaScript; **Data Science:** scikit-learn, PyCaret, Dask, PySpark; **GIS & Remote Sensing:** ArcGIS, Geopandas, Xarray, Giovani; **Analytics Softwares:** SPSS, PowerBI, Microsoft Excel; **Survey Tools:** RedCap, KoboToolBox, EpiCollect, Google Forms; **Academic Writing Tools:** Microsoft Word, LaTeX, Mendeley; **Bioinformatics:** BioPython, Bioconductor, BioPandas, Galaxy, NGS, RNASeq, ssRNASeq; **Miscellaneous Skills:** UNIX, Version Control(Git), Web Scraping, APIs. 
 
-<br/>
+#### Publications 
 
-#### Md. Wahidul Islam (Teaching Assistant)
+1. **Hossain, M.J.**, Islam, M.W., Munni, U.R. et al. Health-related quality of life among thalassemia patients in Bangladesh using the SF-36 questionnaire. Scientific Reports 13, 7734 (2023). <https://doi.org/10.1038/s41598-023-34205-9>
+2. Towhid, S. T., **Hossain, M. J.**, Sammo, M. A. S., & Akter, S. (2022). Perception of Students on Antibiotic Resistance and Prevention: An Online, Community-Based Case Study from Dhaka, Bangladesh. European Journal of Biology and Biotechnology, 3(3), 14–19. <https://doi.org/10.24018/ejbio.2022.3.3.341>
+3. **Hossain, M.J.**, Towhid ST, Sultana S, Mukta SA, Gulshan R, Miah MS (2022). *Knowledge and Attitudes towards Thalassemia among Public University Students in Bangladesh*. Microbial Bioactives, 5(2), <https://doi.org/10.25163/microbbioacts.526325>.
 
-![](images/wahidul.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Wahidul" width="200"}
-
-Wahidul Islam is an undergraduate student in the Department of Microbiology at Jagannath University, Dhaka, Bangladesh. Bioinformatics, Immunology, Cell Biology, Biostatistics, Public health, and Microbiology are some of his research interests. Currently, he is working as a research assistant in Population Health Studies Division & Genomic Data Science Center at CHIRAL Bangladesh. He also leads the seminar and workshop team at CHIRAL Bangladesh.
-
-<br/>
-
-#### Muhibullah Shahjahan (Teaching Assistant)
-
-![](images/muhibullah.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of muhibullah" width="200"}
-
-Muhibullah is an undergraduate student in the Department of Microbiology at Jagannath University and health data analysis, bioinformatics are some of his research interests. Currently, he is working as a research assistant at CHIRAL Bangladesh.
