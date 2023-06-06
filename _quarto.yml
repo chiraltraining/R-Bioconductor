@@ -49,9 +49,10 @@ website:
     contents:
      - href: index.qmd
        text: Home
+     - href: sessions.qmd
+       text: Schedule
      - href: q-and-a.qmd
        text: FAQs
-     - href: modules.qmd
      - href: packages.qmd
      - href: resources.qmd
      - href: license.qmd
